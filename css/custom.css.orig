@@ -1,0 +1,173 @@
+input.red_btn{
+   font-family: Arial, Sans-Serif;
+   font-size: 10px;
+   color:#FFFFFF;
+   font-weight:bold;
+   background-color:#990000;
+   border:2px solid;
+   border-top-color:#FFCCCC;
+   border-left-color:#FFCCCC;
+   border-right-color:#330000;
+   border-bottom-color:#330000;
+}
+input.green_btn{
+   font-family: Arial, Sans-Serif;
+   font-size: 10px;
+   color:#FFFFFF;
+   font-weight:bold;
+   background-color:#009900;
+   border:2px solid;
+   border-top-color:#CCFFCC;
+   border-left-color:#CCFFCC;
+   border-right-color:#003300;
+   border-bottom-color:#003300;
+}
+input.blue_btn{
+   font-family: Arial, Sans-Serif;
+   font-size: 10px;
+   color:#FFFFFF;
+   font-weight:bold;
+   background-color:#000099;
+   border:2px solid;
+   border-top-color:#CCCCFF;
+   border-left-color:#CCCCFF;
+   border-right-color:#000033;
+   border-bottom-color:#000033;
+}
+input.form_field {
+    font-family: Arial, Sans-Serif;
+    font-size: 10px;
+    margin-bottom: 3px;
+    padding: 2px;
+    border: solid 1px #000066;
+}
+textarea.form_field {
+    font-family: Arial, Sans-Serif;
+    font-size: 10px;
+    margin-bottom: 3px;
+    padding: 2px;
+    border: solid 1px #000066;
+}
+select.form_field {
+    font-family: Arial, Sans-Serif;
+    font-size: 10px;
+    margin-bottom: 3px;
+    padding: 2px;
+    border: solid 1px #000066;
+} 
+
+table{
+    width: 100% !important;
+}
+body {
+    overflow-x: hidden;
+    position: relative;
+    height: 100% !important;
+    padding-bottom: 6rem;
+    min-height: 100%;
+}
+table.relog{
+  width: 50% !important;
+}
+
+span#DeactivateDOlDSessioNSpan {
+    height: 100% !important;
+}
+
+span#LoadingBox {
+    height: 100% !important;
+}
+span#CloserSelectBox {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+html {
+    height: 100% !important;
+}
+div#myModal .modal-body {
+    padding: 15px 0;
+}
+
+div#myModal .modal-body label {
+    width: 100%;
+}
+
+div#myModal .modal-body select#break_type {
+  width: 80% !important;
+  margin: 15px auto;
+}
+form#break-form {
+    text-align: center;
+}
+div#myModal .modal-body input {
+    width: 35% !important;
+    margin: 15px auto;
+    height: 25px;
+    background-color: #015b91 !important;
+    border: 0;
+    color: #fff;
+    font-weight: 600;
+}
+.modal-content {
+    top: 25%;
+    left: 0;
+    transform: translateY(-25%);
+}
+.modal.break-modal{
+  background-color: transparent !important;
+}
+div#myModal .modal-header{
+    background-color: #015B91;
+}
+div#myModal .modal-content {
+    width: 25%;
+}
+.btn a input[type="submit"] {
+    background: no-repeat;
+    border: 0;
+    color: #fff;
+    font-weight: 600;
+}
+<<<<<<< HEAD
+table.login_frm font, table.login_frm input#VD_login, input#VD_pass {
+    width: 100%;
+    display: block;
+}
+
+table.login_frm font {
+    font-weight: normal;
+    margin-bottom: 8px;
+    color: steelblue;
+}
+input.form-control {
+    height: 25px;
+    background-color: #ffffff !important;
+    border: 1px solid #cccccc;
+    padding: 0 8px;
+}
+
+font.login_frm_title {
+    color: #333333 !important;
+    font-weight: bold !important;
+}
+td.btn.login_submit_btn input {
+    background: #4682b4;
+    padding: 4px 8px;
+    font-family: 'open sans', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 4px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 0px #000;
+    border: 0;
+=======
+span#MaiNfooterspan {
+    position: absolute;
+    right: 0;
+    bottom: -1rem;
+    left: 0;
+    background-color: #efefef;
+    text-align: center;
+>>>>>>> 155dbd06c50fc017616fcbc0d05819ec60e4a721
+}

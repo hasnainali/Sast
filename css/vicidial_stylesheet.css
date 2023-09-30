@@ -1,0 +1,736 @@
+.vertical-text {
+	writing-mode:tb-rl;
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform: rotate(90deg);
+	white-space:nowrap;
+	display:block;
+	top:0;
+	width:20px;
+	height:20px;
+}
+input.tiny_red_btn{
+	color:#FFFFFF;
+	font-size:9px;
+	font-weight:bold;
+	background-color:#993333;
+	border:1px solid;
+	border-top-color:#FFCCCC;
+	border-left-color:#FFCCCC;
+	border-right-color:#660000;
+	border-bottom-color:#660000;
+	filter:progid:DXImageTransform.Microsoft.Gradient
+		(GradientType=0,StartColorStr='#00ffffff',EndColorStr='#ff660000');}
+input.tiny_blue_btn{
+	color:#FFFFFF;
+	font-size:9px;
+	font-weight:bold;
+	background-color:#3333FF;
+	border:1px solid;
+	border-top-color:#CCCCFF;
+	border-left-color:#CCCCFF;
+	border-right-color:#000066;
+	border-bottom-color:#000066;
+	filter:progid:DXImageTransform.Microsoft.Gradient
+		(GradientType=0,StartColorStr='#00ffffff',EndColorStr='#ff000066');}
+input.tiny_yellow_btn{
+	color:#000000;
+	font-size:9px;
+	font-weight:bold;
+	background-color:#FFFF00;
+	border:1px solid;
+	border-top-color:#FFFFCC;
+	border-left-color:#FFFFCC;
+	border-right-color:#333300;
+	border-bottom-color:#333300;
+	filter:progid:DXImageTransform.Microsoft.Gradient
+		(GradientType=0,StartColorStr='#00ffffff',EndColorStr='#ffFFFF00');}
+input.tiny_green_btn{
+	color:#FFFFFF;
+	font-size:9px;
+	font-weight:bold;
+	background-color:#009900;
+	border:1px solid;
+	border-top-color:#CCFFCC;
+	border-left-color:#CCFFCC;
+	border-right-color:#003300;
+	border-bottom-color:#003300;
+	filter:progid:DXImageTransform.Microsoft.Gradient
+		(GradientType=0,StartColorStr='#00ffffff',EndColorStr='#FF003300');}
+
+.title {  font-family: Arial, Helvetica, sans-serif; color: black; font-size: 18pt}
+.title_wh {  font-family: Arial, Helvetica, sans-serif; color: white; font-size: 14pt}
+.arial {  font-family: Arial, Helvetica, sans-serif; color: black; font-size: 10pt}
+.arial_bold {  font-family: Arial, Helvetica, sans-serif; color: black; font-size: 10pt; font-weight: bold}
+.arial_bold_white {  font-family: Arial, Helvetica, sans-serif; color: white; font-size: 10pt; font-weight: bold}
+.small_arial {  font-family: Arial, Helvetica, sans-serif; color: black; font-size: 8pt}
+.small_arial_bold {  font-family: Arial, Helvetica, sans-serif; color: black; font-size: 8pt; font-weight: bold}
+.tiny_arial {  font-family: Arial, Helvetica, sans-serif; color: black; font-size: 6pt}
+.arial_header {  font-family: Arial, Helvetica, sans-serif; color: black; font-size: 14pt; font-weight: bold}
+
+/* Manager/agent chat-specific classes */
+div.scrolling {
+	height: 77px;
+	width: 320px;
+	overflow: auto;
+	border: 1px solid #666;
+	background-color: #FFF;
+	padding: 5px;
+}
+textarea.chat_box {
+    font-family: Arial, Sans-Serif;
+    font-size: 10px;
+    margin-bottom: 3px;
+    padding: 2px;
+    border: solid 1px #000066;
+}
+div.scrolling_transcript {
+	height: 204px;
+	width: 370px;
+	overflow: auto;
+	border: 1px solid #666;
+	background-color: #FFF;
+	padding: 5px;
+}
+div.scrolling_chat_display {
+	height: 104px;
+	width: 150px;
+	overflow: auto;
+	border: 1px solid #666;
+	background-color: #FFF;
+	padding: 2px;
+}
+
+.button_active {
+    background-color: #4CAF50; /* Green */
+	border: 1px solid green;
+	border-radius: 2px;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	}
+
+.button_inactive {
+    background-color: #4CAF50; /* Green */
+    border: 1px solid green;
+	border-radius: 2px;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	opacity: 0.6;
+    cursor: not-allowed;
+	}
+
+	/*css for new design by yogesh*/
+body{
+	margin: 0;
+	font-family: 'open sans', sans-serif;
+}
+a{
+	text-decoration: none;
+	color: #333333;
+}
+.font-weight-medium{
+	font-weight: 600 !important;
+}
+.font-weight-bold{
+	font-weight: bold !important;
+	color: white;
+	padding: 5%;
+	line-height: 1.5;
+}
+.heading-text{
+	font-size: 16px;
+}
+td a {
+    display: inline-block;    
+}
+td 
+.large-font{
+	font-size: 14px !important;
+}
+.medium-font{
+	font-size: 12px !important;	
+}
+.small-font{
+	font-size: 10px !important;	
+}
+.btn a {
+    background: #4682b4;
+    padding: 5px 15px;
+    font-family: 'open sans', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 6px;
+    box-shadow: 2px 1px 0px rgba(0,0,0,0.55);
+    font-size: 15px !important;
+}
+.btn a:active {
+    background-color: #296494;
+    box-shadow: 0 2px #18476d;
+    transform: translateY(1px);
+}
+textarea{
+	/*height: 50px !important;*/
+	
+}
+select.form-control{
+	padding: 0;
+	height: 25px !important;
+
+}
+input.form-control, select.form-control, textarea.form-control{
+    /*height: 18px;*/
+    width: 100% !important;
+    max-width: 175px;
+}
+td.btn {
+    text-align: center;
+}
+font {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/*agent front view css 12-10-2020*/
+select.cust_form_select {
+    width: 100%;
+    background: #ffffff;
+    height: 25px;
+}
+td.table_heading font {
+    font-size: 16px;
+}
+
+input[type='submit']{
+	background: #4682b4;
+    padding: 5px 15px;
+    font-family: 'open sans', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 6px;
+    box-shadow: 2px 2px 0px rgba(0,0,0,0.55);
+    border: #4682b4;
+    width: 30%;
+    cursor: pointer;
+    font-size: 15px !important;
+}
+
+input[type='button']{
+	background: #4682b4;
+    padding: 4px 8px;
+    font-family: 'open sans', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 4px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 0px #000;
+    border: #4682b4;
+    cursor: pointer;
+    /*width: 30%;*/
+}
+.dynamicFields td:first-child{
+	text-align: right;
+}
+
+table#ticket_form tr td input, table#ticket_form tr td select {
+    max-width: 200px;
+    width: 100%;
+}
+
+table#ticket_form tr td input[type="radio"], table#ticket_form tr td input[type="checkbox"], table#ticket_form tr td input[type="submit"] {
+    width: auto;
+    margin-right: 10px;
+}
+#searchby{
+	border: none;
+    border-bottom: 2px solid #8c8686;
+    background: none;
+}
+
+#Tabs font{
+	margin-right:2%;
+	cursor: pointer;
+}
+
+#dashboard{
+	background: transparent;
+    border: 0;
+    margin-left: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 20%;
+}
+
+table#Tabs font img {
+    width: 110px;
+    height: 25px;
+}
+table#Tabs font img {
+    width: 110px;
+    height: 25px;
+}
+
+#Tabs font.body_text img {
+    width: auto;
+    height: auto;
+}
+
+a#searchTicket img {
+    width: auto !important;
+    height: auto !important;
+}
+table#consult-form tr td span img {
+    width: 180px;
+    height: 25px;
+    margin: 5px 0;
+}
+
+#actiontb{
+	max-height: 390px !important;
+    overflow-y: scroll !important;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 7; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  /* for body opacity color
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  
+  /* For pop up animation.
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+  */
+  }
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #127d12;
+    color: white;
+    height: 48px;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+.agentTicketCount {
+  cursor: pointer;
+}
+
+.view-history-tbl{
+	width: 80% !important;
+    padding: 5px;
+    height: 430px;
+    position: fixed !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);	
+}
+
+.dynamicFields td:first-child {
+  max-width: 150px;
+  text-align: left !important;    
+}
+
+
+/*================================= dashboad css ======================*/
+ #slider {
+    position: relative;
+    overflow: hidden;
+    margin: 0px auto 0 auto;
+    border-radius: 4px;
+    height: 35px !important;
+    width: 125% !important;
+  }
+td.ticket-type-field {
+    width: 10%;
+}
+  #slider ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 40px;
+    width: 153% !important;
+    margin-left: -60% !important;
+  }
+
+#slider ul li select {
+  width: 100% !important;
+}
+/*#slider ul li select {
+    display: none;
+}
+
+#slider ul li select.active {
+    display: flex;
+}*/
+#slider ul li.active {
+    display: flex;
+    float: right;
+    margin: 0 10px;
+    max-width: 200px;
+}
+  #slider ul li {
+    position: relative;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 48%;
+    text-align: center;
+    height: 40px;
+  }
+
+  #slider a.control_prev, a.control_next, a.newClass {
+    position: absolute;
+    top: 5px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #3c7cc4;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 1;
+    cursor: pointer;
+    width: 25px;
+    height:25px;
+  }
+
+  #slider a.control_prev:hover, a.control_next:hover, a.newClass:hover {
+    opacity: 1;
+    -webkit-transition: all 0.2s ease;
+  }
+
+  #slider a.control_prev {
+    border-radius: 100%;
+    /*border: 6px solid #fff;*/
+    position: absolute;
+    /*left: -6px;*/
+    top: 5px;
+  }
+
+  #slider a.control_next {
+    right: 0;
+    border-radius: 100%;
+  }
+
+  #slider a.newClass {
+    border-radius: 100%;
+    /*border: 6px solid #fff;*/
+    position: absolute;
+    right: 0;
+    top: 5px;
+    border-radius: 100%;
+  }
+  td.dashboar-block {
+      box-shadow: 2px 2px 5px #000000;
+  }
+.dashboar-block-img {
+    float: left;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0788bf;
+    width: 35%;
+}
+
+.dashboar-block-content {
+    float: right;
+    padding: 15px 0px;
+    background: #dde1d5;
+    width: 65%;
+    height: 50px;
+}
+.dashboar-block-content span {
+    font-size: 26px !important;
+}
+span#dash1 table.date-time tr td {
+    font-size: 13px;
+    color: #0788bf;
+}
+span#dash1 .profile-info p {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 5px 0;
+}
+.profile-info {
+    display: inline-block;
+    text-align: center;
+    padding: 0 15px;
+}
+table.date-time tr td input {
+    font-size: 12px;
+}
+.dashboar-block-content {
+  cursor: pointer;
+}
+
+span#custdatetime {
+    font: 400 13.3333px Arial;
+}
+
+span#SecondSDISP {
+    font: 400 13.3333px Arial;
+}
+
+font.body_text textarea#comments {
+    font: 400 13.3333px Arial;
+}
+table#ticket_form tr {
+    display: flex;
+}
+table#ticket_form tr td{
+  display: flex;
+  align-items: center;
+  min-width: 150px;
+}
+/*td.textarea-td {
+    width: 100%;
+    height: 70px;
+}
+
+td.textarea-td textarea#comments {
+    height: 100%;
+}
+td.textarea-td font.body_text {
+    width: 100%;
+}*/
+
+body {font-family: Arial, Helvetica, sans-serif;}
+#ticket_number, #source, #campaign, #action_no{
+    margin-right:5%; 
+    font-size: 12px;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  /* for body opacity color
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  
+  /* For pop up animation.
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+  */
+  }
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #127d12;
+    color: white;
+    height: 48px;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+#MainTable tr,td{
+  /*padding: 2% 0px 0px 2px;*/
+}
+
+/*View History css*/
+table.history-table tr:nth-child(odd) {
+    background-color: #a8ceef !important;
+}
+table.history-table tr:nth-child(even) {
+    background-color: #d9e6fe !important;
+}
+table.history-table tr {
+    color: #333333 !important;
+    font-size: 13px !important;
+}
+table.history-table tr td{
+    text-align: center;
+}
+span#history_span {
+    position: relative;
+    display: block;
+    max-height: 200px !important;
+    overflow-x: scroll !important;
+}
+table.history-table tbody tr:first-child {
+    color: #333333 !important;
+    font-size: 14px !important;
+    font-weight: 600;
+}
+span#history_span h3 {
+    position: sticky;
+    top: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #3c7cc4;
+    padding: 5px 0;
+    color: #ffffff;
+    z-index: 9999;
+}
+
+table.history-table {
+  position: relative;
+}
+
+
+
+/*Action pop up*/
+table.history-details-table thead tr {
+        color: #fff;
+    }
+    table.history-details-table tbody tr:nth-child(odd) {
+        background-color: #a8ceef;
+    }
+    table.history-details-table tbody tr:nth-child(even) {
+        background-color: #d9e6fe;
+    }
+    table.history-details-table tr td{
+      font-size: 13px;
+    }
+    table.history-details-table thead tr {
+        background-color: #4682b4;
+    }
+    table.history-details-table thead tr {
+        font-size: 13px;
+    }
+                span#history_span {
+                    z-index: 0;
+                }
+.modal-content.view-history-tbl .modal-header {
+    background-color: #244a76 !important;
+    height: 35px !important;
+}
+
+.modal-content.view-history-tbl .modal-header h5 {
+    margin-top: 13px !important;
+}
+.close {
+    margin-top: 5px !important;
+}
+table.history-details-table tbody tr:nth-child(odd) {
+    background-color: #c5e2fb !important;
+}
+
+div.scroll_calllog {height: <?php echo $CQheight ?>px; width: <?php echo $MNwidth ?>px; overflow: scroll;}
+div.scroll_callback {height: 400px; width: <?php echo $MNwidth ?>px; overflow: scroll;}
+div.scroll_callback_auto {height: 400px; width: <?php echo $MNwidth ?>px; overflow: auto;}
+div.scroll_script {height: <?php echo $SSheight ?>px; width: <?php echo $SDwidth ?>px; background: transparent; overflow: auto; font-size: 12px;  font-family: sans-serif;}
+div.noscroll_script {height: <?php echo $SSheight ?>px; width: <?php echo $SDwidth ?>px; background: #FFF5EC; overflow: hidden; font-size: 12px;  font-family: sans-serif;}
